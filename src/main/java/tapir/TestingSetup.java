@@ -35,6 +35,7 @@ public class TestingSetup {
 
 		//Definition of the regular expression
 		regularExpression = Pattern.compile("c(((d|p|n)*l)*|m)*r");
+//		regularExpression = Pattern.compile("c((d|p|n)*|m)*lr"); // INVALID REGEX
 
 		//Initializing the regular expressions controller
 		matcher = regularExpression.matcher("");
